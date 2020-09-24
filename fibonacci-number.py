@@ -1,4 +1,4 @@
-Fibonacci_Array = [0,1]
+Fibonacci_Array = [0, 1]
 entered_number = int(input("Please enter a positive integer number : "))
 def fibonacci(number):
     if number <= 0:
