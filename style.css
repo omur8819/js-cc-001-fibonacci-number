@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./fibonacci.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 625px;
+}
+.hood {
+    margin-top: 150px;
+    padding: 1rem;
+    font-size: 30px;
+    -webkit-text-stroke: 2.5px black;
+}
+#try{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+#button_1{
+    margin-top: 5px;
+    width: 112px;
+    height: 57px;
+    border-radius: 10px;
+    background-color: orangered;
+    border: 4px solid black;
+    color: white;
+    font-weight: larger;
+    font-size: larger;
+}
+#button_1:hover{
+    color: orangered;
+    background-color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+.result {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    -webkit-text-stroke: 1.5px black;
+}
