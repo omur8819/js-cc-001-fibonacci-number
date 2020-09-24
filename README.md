@@ -1,1 +1,0 @@
-# js-coding-challenge-cc-001
